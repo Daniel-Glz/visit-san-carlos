@@ -7,7 +7,6 @@ const aboutOne = {
   shape1,
   shape2,
   phone: "666-888-0000",
-  discount: "30%",
   tagline: "Get to know us",
   title: "Plan Your Trip with Trevily",
   destination:

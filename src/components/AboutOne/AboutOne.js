@@ -7,7 +7,6 @@ const {
   shape1,
   shape2,
   phone,
-  discount,
   tagline,
   title,
   destination,
@@ -41,10 +40,6 @@ const AboutOne = () => {
                       <a href={`tel:${phone}`}>{phone}</a>
                     </h4>
                   </div>
-                </div>
-                <div className="about-one__discount">
-                  <h2>{discount}</h2>
-                  <h3>Discount</h3>
                 </div>
               </div>
             </div>

@@ -37,16 +37,9 @@ const Header = ({ pageTitle }) => {
             </div>
             <div className="main-header__top-right">
               <div className="main-header__top-right-inner">
-                <div className="main-header__top-right-social">
-                  {social.map(({ icon, link }, index) => (
-                    <a href={link} key={index}>
-                      <i className={`fab ${icon}`}></i>
-                    </a>
-                  ))}
-                </div>
                 <div className="main-header__top-right-btn-box">
                   <a href="#" className="thm-btn main-header__top-right-btn">
-                    Become a local guide
+                    Registra tu negocio
                   </a>
                 </div>
               </div>
@@ -105,7 +98,6 @@ const Header = ({ pageTitle }) => {
                   style={{ cursor: "pointer" }}
                   className="main-menu__search search-toggler icon-magnifying-glass"
                 ></span>
-                <a href="#" className="main-menu__user icon-avatar"></a>
               </div>
             </div>
           </Container>
